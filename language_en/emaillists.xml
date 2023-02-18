@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="emaillists" label="emaillists" language_tag="en" language_label="English">
+
+<key name="admin_config_title">
+<value>Email Lists</value>
+</key>
+
+<key name="admin_config_head">
+<value>Email Lists | Admin</value>
+</key>
+
+<key name="export_txt">
+<value>Export .txt File</value>
+</key>
+
+<key name="export_csv">
+<value>Export .csv File</value>
+</key>
+
+<key name="orderby_id">
+<value>ID</value>
+</key>
+
+<key name="id">
+<value>ID</value>
+</key>
+
+<key name="usernames">
+<value>Username</value>
+</key>
+
+<key name="email_addresses">
+<value>Email Address</value>
+</key>
+
+<key name="sex">
+<value>Sex</value>
+</key>
+
+<key name="male">
+<value>Male</value>
+</key>
+
+<key name="female">
+<value>Female</value>
+</key>
+
+<key name="orderby_uname">
+<value>Username</value>
+</key>
+
+<key name="orderby_email">
+<value>Email</value>
+</key>
+
+<key name="orderby_male">
+<value>Sex: Male</value>
+</key>
+
+<key name="orderby_female">
+<value>Sex: Female</value>
+</key>
+
+<key name="ordering">
+<value>Ordering by </value>
+</key>
+
+<key name="orderby_activity">
+<value>Activity (Default)</value>
+</key>
+
+<key name="website_name">
+<value>{$site_name}</value>
+</key>
+
+<key name="jbtech_title">
+<value>JB-Tech | Oxwall&amp;Skadate Solutions</value>
+</key>
+
+<key name="jbtech_heading">
+<value>JB-Tech | Oxwall&amp;Skadate Solutions</value>
+</key>
+
+<key name="settings_submit">
+<value>Save</value>
+</key>
+
+<key name="export_type_settings">
+<value>Export Settings</value>
+</key>
+
+<key name="sql_limit_settings">
+<value>SQL Select Limit</value>
+</key>
+
+<key name="sql_limit_desc">
+<value>Using a numerical value, this sets the limit of data to select for both the Table and the Export file.</value>
+</key>
+
+<key name="all_data">
+<value>All Data</value>
+</key>
+
+<key name="emails_only">
+<value>Emails Only</value>
+</key>
+
+<key name="emails_names">
+<value>Emails + Names</value>
+</key>
+
+<key name="male_users">
+<value>Male Users only</value>
+</key>
+
+<key name="female_users">
+<value>Female Users only</value>
+</key>
+
+<key name="use_male">
+<value>Order by Male</value>
+</key>
+
+<key name="use_female">
+<value>Order by Female</value>
+</key>
+
+
+
+
+
+</prefix>

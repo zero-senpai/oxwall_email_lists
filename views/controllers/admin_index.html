@@ -1,0 +1,52 @@
+{style}
+    .modal-content {
+		display:inline-flex;
+        background-color: white;
+        padding: 1rem 1.5rem;
+        width: 24rem;
+        border-radius: 0.5rem;
+		border: 0.5px solid #000;
+    }
+    .close-button {
+        width: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 0.25rem;
+        background-color: #EDE734;
+		display:inline-block;
+		height:50%;
+		margin-right:7px;
+    }
+{/style}
+<div class="ow_automargin ow_wide ow_left" style="width:50%;">
+	{form name="emaillists_settings"}
+	<table class="ow_table_1 ow_form">
+		<tr class="{cycle values='ow_alt1, ow_alt2'}">
+			<td style="width: 50%;">
+				{label name="export_type"}
+			</td>
+			<td>
+				{input name="export_type"}
+			</td>
+		</tr>
+	</table>
+	<div class="clearfix ow_submit ow_stdmargin">
+		<div class="ow_right">
+			{submit name="submit"}
+		</div>
+	</div>
+{/form}
+
+</div><br>
+<div class="ow_right">
+<div class="modal-content">
+            <span class="close-button">&star;</span>
+            <h1>LIKE THIS PLUGIN?</h1>
+			<span style="font-size:12.3px;">Please consider <a href="https://developers.oxwall.com/store/item/1511" target="_blank" style="font-weight:bold;color:blue;">leaving us a review!</a></span>
+</div>
+</div>
+<br>
+<div style="margin-top:15%;">
+{$content}
+</div>
